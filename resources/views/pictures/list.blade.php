@@ -1,23 +1,4 @@
-<?php
 
-$conector = mysqli_connect("localhost","root","","gestor_fotos");
-
-
-
-$buscar = $_POST["buscar"] ?? null;
-
-$buscador = mysqli_query($conector, "SELECT pictures.*, users.* 
-FROM pictures
-JOIN users 
-WHERE pictures.picture_name
-LIKE LOWER('%".$buscar."%')
-ORDER BY pictures.ID DESC");
-
-
-
-
-
-?>
 
 
 @extends('layout')
