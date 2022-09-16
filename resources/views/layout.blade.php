@@ -12,7 +12,6 @@
 		.container {
 			max-width: 97%;
     		margin: 0 auto;
-			box-shadow: rgb(17 12 46 / 15%) -11px 16px 21px 0px;
 			border-radius: 10px;
 		}
 		form{
