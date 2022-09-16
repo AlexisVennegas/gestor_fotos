@@ -6,7 +6,7 @@
 	<title>Gestor de fotos</title>
 	<link rel="stylesheet" type="text/css" href="{{asset('bootstrap-5.1.3-dist/css/bootstrap.min.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('css/star-rating.css')}}">
-	<link rel="shortcut icon" href=".../img/imagen.png">
+	<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3286/3286363.png">
 	<link rel="stylesheet" href="{{asset ('css/listblade.css')}}">
 	<style type="text/css">
 		.container {
